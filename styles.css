@@ -1,0 +1,73 @@
+body {
+    background-color: antiquewhite;
+}
+
+.head {
+    display: flex;
+    height: 20vh;
+    font-size: 5vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.mid {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+.interface {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vh;
+    margin: 5vh;
+}
+
+.reset {
+    width: 10vh;
+    height: 5vh;
+    margin: 5vh;
+    font-size: 2vh;
+}
+
+.enter {
+    width: 6vh;
+    height: 3vh;
+    margin: 1vh;
+}
+
+.hints {
+    font-size: 1.4vh;
+}
+
+.drawer {
+    display: flex;
+    flex-wrap: nowrap;
+    height: 50vh;
+    width: 50vh;
+    background-color: rgb(253, 216, 159);
+}
+
+.row {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.grid {
+    display: flex;
+    flex-wrap: nowrap;
+    flex-grow: 1;
+}
+
+.foot {
+    height: 20vh;
+}
+
+.pixelon {
+    background-color: black;
+}
+
